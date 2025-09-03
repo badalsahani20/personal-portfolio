@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {Instagram, Linkedin, Mail, Twitter, MapPin, Phone, Twitch, Send} from 'lucide-react'
 import {cn} from "@/lib/utils.js";
-import {useToast} from "@/Hooks/use-toast";
+import {useToast} from "@/hooks/use-toast";
 
 const Contact = () => {
 
