@@ -1,7 +1,7 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "@/Pages/Home.jsx";
-import NotFound from "@/Pages/NotFound.jsx";
-import {Toaster} from "@/Components/ui/toaster.jsx";
+import NotFound from "@/Pages/NotFound.jsx"; 
+import {Toaster} from "@/components/ui/toaster.jsx"; //changed Component -> component
 
 export default function App() {
     return (
