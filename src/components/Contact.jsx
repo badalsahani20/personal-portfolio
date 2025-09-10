@@ -75,7 +75,7 @@ const Contact = () => {
                                     <Linkedin />
                                 </a>
                                 <a href={"https://www.instagram.com/d4rth.anv"} target={"_blank"}>
-                                    <Instagram />
+                                    <Instagram size={20} text="primary"/>
                                 </a>
                             </div>
                         </div>
