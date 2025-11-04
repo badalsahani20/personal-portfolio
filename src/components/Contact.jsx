@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {Instagram, Linkedin, Mail, Twitter, MapPin, Phone, Twitch, Send} from 'lucide-react'
+import {Instagram, Linkedin, Mail, MapPin, Phone, Send} from 'lucide-react'
 import {cn} from "@/lib/utils.js";
 import {useToast} from "@/hooks/use-toast";
 
@@ -90,7 +90,7 @@ const Contact = () => {
                                        id={"name"}
                                        name={"name"}
                                        required
-                                       className={"w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-secondary"}
+                                       className={"w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"}
                                        placeholder={"John Doe"} />
                             </div>
                             <div>

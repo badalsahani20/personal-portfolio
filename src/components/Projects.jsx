@@ -1,13 +1,22 @@
 import React from 'react'
-import AssemblyEndgame from '../assets/AssemblyEndgame.png'
 import ChefMistral from '../assets/Chef-Mistral.png'
 import WeatherApp from '../assets/weather-app.png'
 import {ArrowRight, ExternalLink} from "lucide-react";
 import {Github} from "lucide-react";
+import AiAnalyzer from '../assets/AiResumeAnalyzer.png'
 
 const projects = [
     {
         id: 1,
+        title: "Ai Resume Analyzer",
+        description: 'AI-powered resume analysis tool that evaluates your resume for ATS compatibility, content quality, tone, structure, and skills. It provides an overall score with actionable improvement suggestions.',
+        image: AiAnalyzer,
+        tags: ['React', 'Tailwind', 'Puter.js'],
+        url: "https://skill-scanner-beta.vercel.app",
+        gitHubUrl: "https://github.com/badalsahani20/ai-resume-analyzer",
+    },
+    {
+        id: 2,
         title: "AI Chef",
         description: "Chef Mistral – your AI-powered kitchen assistant that turns pantry ingredients into delicious recipes.",
         image: ChefMistral,
@@ -16,7 +25,7 @@ const projects = [
         gitHubUrl: "https://github.com/badalsahani20/Recipe-Generator",
     },
     {
-        id: 2,
+        id: 3,
         title: "Weather App",
         description: "interactive application built with HTML, CSS, and JavaScript that fetches real-time weather data using the OpenWeatherMap API.",
         image: WeatherApp,
@@ -24,15 +33,7 @@ const projects = [
         url:"https://weather-app-zggx.vercel.app",
         gitHubUrl: "https://github.com/badalsahani20/WeatherApp",
     },
-    {
-        id: 3,
-        title: "Assembly Endgame",
-        description: "Assembly-Endgame Hangman is a React-based interactive Hangman game with a clean, responsive interface.",
-        image: AssemblyEndgame,
-        tags: ["React", "CSS"],
-        url:"https://assembly-endgame-hangman-jet.vercel.app",
-        gitHubUrl: "https://github.com/badalsahani20/Assembly-Endgame-hangman-",
-    },
+
 ]
 
 export const Projects = () => {
