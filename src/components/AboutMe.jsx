@@ -13,7 +13,7 @@ const AboutMe = () => {
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">Who I Am?</h3>
                         <p className="text-muted-foreground">
-                            I’m a software engineer with a strong foundation in Java, Spring Boot, React, and SQL.
+                            I’m a software engineer with a strong foundation in Java, MERN stack and SQL.
                             I enjoy crafting full-stack and backend-focused applications that are not only technically robust
                             but also smooth and intuitive for users.
                         </p>
@@ -54,9 +54,9 @@ const AboutMe = () => {
                                     <GraduationCap className="w-6 h-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Education & Learning</h4>
+                                    <h4 className="font-semibold text-lg">Learning</h4>
                                     <p className="text-muted-foreground">
-                                        Continuously expanding my knowledge and skills through hands-on projects and coursework.
+                                        Continuously expanding my knowledge in SQL and MERN stack through hands-on projects and coursework.
                                     </p>
                                 </div>
                             </div>
