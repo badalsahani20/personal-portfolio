@@ -12,16 +12,12 @@ const AboutMe = () => {
                 <div className= "grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">Who I Am?</h3>
-                        <p className="text-muted-foreground">
-                            I’m a software engineer with a strong foundation in Java, MERN stack and SQL.
-                            I enjoy crafting full-stack and backend-focused applications that are not only technically robust
-                            but also smooth and intuitive for users.
+                        <p className="text-muted-foreground leading-relaxed text-left">
+                            Software Developer skilled in Java, MERN Stack, PostgreSQL, and RESTful API development. Experienced in building full-stack applications, integrating AI-powered features, and designing scalable backend systems.
                         </p>
 
-                        <p className="text-muted-foreground">
-                            Beyond just writing code, I’m driven by curiosity—exploring new technologies, sharpening my problem-solving
-                            skills, and taking on challenges that push me forward. My goal is to create impactful software that blends
-                            solid engineering with thoughtful user experiences.
+                        <p className="text-muted-foreground leading-relaxed text-left">
+                            Strong problem-solving mindset with consistent practice in Data Structures and Algorithms. Currently focused on developing Notesify, an AI-powered educational platform that streamlines note creation and learning workflows.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -56,7 +52,7 @@ const AboutMe = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">Learning</h4>
                                     <p className="text-muted-foreground">
-                                        Continuously expanding my knowledge in SQL and MERN stack through hands-on projects and coursework.
+                                        Continuously expanding my knowledge in PostgreSQL, MERN Stack, and DSA through hands-on projects and coursework.
                                     </p>
                                 </div>
                             </div>

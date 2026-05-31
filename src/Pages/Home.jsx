@@ -1,5 +1,4 @@
 import React from 'react'
-import ThemeToggle from "@/components/ThemeToggle.jsx";
 import StarBackground from "@/components/StarBackground.jsx";
 import Navbar from "@/components/Navbar.jsx";
 import Hero from "@/components/Hero.jsx";
@@ -12,9 +11,6 @@ import Footer from "@/components/Footer.jsx"
 const Home = () => {
     return (
         <div className= "min-h-screen">
-            {/*{Theme Toggle}*/}
-            <ThemeToggle />
-
         {/* Background Effects */}
 
             <StarBackground />

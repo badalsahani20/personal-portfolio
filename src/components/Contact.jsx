@@ -90,7 +90,7 @@ const Contact = () => {
                                        id={"name"}
                                        name={"name"}
                                        required
-                                       className={"w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"}
+                                       className={"w-full px-4 py-3 rounded-md border border-input bg-background placeholder:text-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary"}
                                        placeholder={"John Doe"} />
                             </div>
                             <div>
@@ -99,7 +99,7 @@ const Contact = () => {
                                        id={"email"}
                                        name={"email"}
                                        required
-                                       className={"w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"}
+                                       className={"w-full px-4 py-3 rounded-md border border-input bg-background placeholder:text-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary"}
                                        placeholder={"abc@gmail.com"} />
                             </div>
                             <div>
@@ -108,7 +108,7 @@ const Contact = () => {
                                        id={"message"}
                                        name={"message"}
                                        required
-                                       className={"w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary resize-none"}
+                                       className={"w-full px-4 py-3 rounded-md border border-input bg-background placeholder:text-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary resize-none"}
                                        placeholder={"Hello, i'd like to talk about..."} />
                             </div>
                             <button

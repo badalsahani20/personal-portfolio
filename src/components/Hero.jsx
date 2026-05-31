@@ -14,7 +14,7 @@ const Hero = () => {
                         <span className= "text-gradient ml-2 opacity-0 animate-fade-in-delay-2">Sahani</span>
                     </h1>
                     <p className= "text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        Full-stack developer transitioning from Java backend to the MERN stack, skilled in building clean, fast, and scalable web applications. Strong focus on user experience, backend logic, and modern JavaScript development using React, Node.js, Express, and MongoDB.</p>
+                        Full-Stack MERN Developer with expertise in Java and Data Structures & Algorithms (DSA). Dedicated to building clean, high-performance, and scalable web applications with intuitive user experiences.</p>
                     <div className= "pt-4 opacity-0 animate-fade-in-delay-4">
                         <a href="#projects" className= "cosmic-button">
                             View My Work
